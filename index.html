@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp Valorant | Do Ferro ao Radiante</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader" class="preloader">
+        <div class="val-spinner"></div>
+        <p class="loading-text">Carregando o Lobby...</p>
+    </div>
+
+    <div class="custom-cursor" id="custom-cursor"></div>
+
+    <div class="bg-grid"></div>
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-crosshairs text-red"></i> BOOTCAMP
+            </div>
+            <nav class="nav-links">
+                <a href="#testimonials">Depoimentos</a>
+                <a href="#pricing">Planos</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <a href="#application" class="btn-cta nav-btn sound-click">Aplicar</a>
+        </div>
+    </header>
+
+    <button id="back-to-top" class="back-to-top sound-click" aria-label="Voltar ao topo">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <button id="theme-toggle" class="theme-toggle sound-click" aria-label="Alternar Tema">
+        <i class="fa-solid fa-sun"></i>
+    </button>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content hidden-scroll">
+                    <h1 class="hero-title">Cansado de perder o <span class="text-red">controle do bomb?</span></h1>
+                    <p class="hero-subtitle">Saia da frustração das rankeadas. Aprenda Mira, Game Sense e Mentalidade com jogadores Radiantes.</p>
+                    <a href="#application" class="btn-cta pulse sound-click">Quero Subir de Elo Agora</a>
+                </div>
+                
+                <div class="hero-video-wrapper hidden-scroll" style="transition-delay: 200ms;">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/e_E9W2vsRbQ?autoplay=1&mute=1&loop=1&playlist=e_E9W2vsRbQ&controls=0&modestbranding=1" 
+                            title="Valorant Gameplay" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                        <div class="video-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section hidden-scroll">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <h2 class="stat-number" data-target="5000">0</h2>
+                    <p>Alunos Formados</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-number" data-target="150">0</h2>
+                    <p>Horas de Conteúdo</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-number" data-target="95">0</h2>
+                    <p>% Subiram de Elo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section hidden-scroll">
+            <div class="container">
+                <h2 class="section-title">Prova Social de Elite</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="agent-avatar-box">
+                            <img src="https://ui-avatars.com/api/?name=Jett&background=ff4655&color=fff&size=100&bold=true" alt="Jett Avatar">
+                        </div>
+                        <p class="quote">"O VOD Review mudou meu jogo. Saí do Ouro para o Diamante em 15 dias!"</p>
+                        <span class="player-name">@JettMain_PRO</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="agent-avatar-box">
+                            <img src="https://ui-avatars.com/api/?name=Sage&background=ece8e1&color=111&size=100&bold=true" alt="Sage Avatar">
+                        </div>
+                        <p class="quote">"A mentoria de suporte é insana. Aprendi a carregar o time sem precisar de 30 kills."</p>
+                        <span class="player-name">@SageSupport_BR</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section hidden-scroll">
+            <div class="container">
+                <h2 class="section-title">Planos de Treinamento</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card hover-glow">
+                        <h3>Plano Ouro</h3>
+                        <p class="price">R$ 97<span>/único</span></p>
+                        <ul class="benefit-list">
+                            <li><i class="fa-solid fa-check"></i> Rotina de Mira Base</li>
+                            <li><i class="fa-solid fa-check"></i> Acesso ao Discord</li>
+                            <li><i class="fa-solid fa-xmark"></i> VOD Review Individual</li>
+                        </ul>
+                        <button class="btn-secondary btn-buy sound-click" data-plan="Ouro - R$ 97">Comprar Ouro</button>
+                    </div>
+                    
+                    <div class="pricing-card highlighted hover-glow">
+                        <div class="tag">Mais vantajoso</div>
+                        <h3>Plano Radiante</h3>
+                        <p class="price">R$ 297<span>/único</span></p>
+                        <ul class="benefit-list">
+                            <li><i class="fa-solid fa-check"></i> VOD Review Ilimitado</li>
+                            <li><i class="fa-solid fa-check"></i> Treino ao Vivo</li>
+                            <li><i class="fa-solid fa-check"></i> VIP Discord Gold</li>
+                        </ul>
+                        <button class="btn-cta btn-buy sound-click" data-plan="Radiante - R$ 297">Comprar Radiante</button>
+                    </div>
+                    
+                    <div class="pricing-card hover-glow">
+                        <h3>Plano Diamante</h3>
+                        <p class="price">R$ 197<span>/único</span></p>
+                        <ul class="benefit-list">
+                            <li><i class="fa-solid fa-check"></i> 3 VOD Reviews</li>
+                            <li><i class="fa-solid fa-check"></i> Guia de Posicionamento</li>
+                            <li><i class="fa-solid fa-check"></i> VIP Discord Silver</li>
+                        </ul>
+                        <button class="btn-secondary btn-buy sound-click" data-plan="Diamante - R$ 197">Comprar Diamante</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section hidden-scroll">
+            <div class="container">
+                <h2 class="section-title">Dúvidas Frequentes</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header sound-click">Qual o tempo de duração da mentoria?</button>
+                        <div class="accordion-content"><p>O acesso ao conteúdo gravado é vitalício. As sessões ao vivo ocorrem durante 4 semanas.</p></div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header sound-click">Serve para qualquer Elo?</button>
+                        <div class="accordion-content"><p>Sim! Temos módulos específicos do Ferro ao Ascendente.</p></div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header sound-click">Existe alguma garantia de devolução?</button>
+                        <div class="accordion-content"><p>Você tem 7 dias de garantia incondicional.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="application" class="application-section hidden-scroll">
+            <div class="container">
+                <div class="form-card hover-glow">
+                    <h2 class="section-title" style="margin-top:0;">Aplicação de Elite</h2>
+                    <form id="valorant-form" novalidate>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" placeholder="Seu nome completo">
+                                <span class="error-msg">Nome é obrigatório (mín. 3 letras)</span>
+                            </div>
+                            <div class="input-group">
+                                <label for="riotid">Riot ID</label>
+                                <input type="text" id="riotid" placeholder="Nick#TAG">
+                                <span class="error-msg">Formato inválido (Ex: Nick#123)</span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="elo">Elo Atual</label>
+                            <select id="elo">
+                                <option value="">Selecione seu elo</option>
+                                <option value="ferro">Ferro / Bronze</option>
+                                <option value="prata">Prata / Ouro</option>
+                                <option value="platina">Platina / Diamante</option>
+                                <option value="ascendente">Ascendente / Imortal</option>
+                            </select>
+                            <span class="error-msg">Selecione seu elo</span>
+                        </div>
+                        <button type="submit" class="btn-cta sound-click" id="btn-submit">
+                            <span class="text">Enviar Minha Vaga</span>
+                            <div class="spinner"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2026 Bootcamp Valorant - Desenvolvido por Aliana Moraes. 
+            Este site é um projeto de treinamento e não possui vínculo oficial com a Riot Games.</p>
+    </footer>
+
+    <div id="payment-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal sound-click">&times;</button>
+            <h2 class="modal-title">Finalizar Compra</h2>
+            <p id="selected-plan-text" class="text-red" style="margin-bottom: 20px; font-weight: bold;"></p>
+            
+            <form id="payment-form" novalidate>
+                <div class="input-group">
+                    <label for="card-name">Nome no Cartão</label>
+                    <input type="text" id="card-name" placeholder="Ex: JOAO DA SILVA" required>
+                </div>
+                <div class="input-group">
+                    <label for="card-number">Número do Cartão</label>
+                    <input type="text" id="card-number" placeholder="0000 0000 0000 0000" maxlength="19" required>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="card-expiry">Validade</label>
+                        <input type="text" id="card-expiry" placeholder="12/28" maxlength="5" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="card-cvv">CVV</label>
+                        <input type="text" id="card-cvv" placeholder="123" maxlength="4" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn-cta sound-click" id="btn-pay" style="width: 100%;">
+                    <span class="text"><i class="fa-solid fa-lock"></i> Pagar Agora</span>
+                    <div class="spinner"></div>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
