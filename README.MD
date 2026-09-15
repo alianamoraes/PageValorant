@@ -28,21 +28,27 @@ Foi desenvolvido com HTML5, CSS3 e JavaScript puro (Vanilla JS), focando em boas
 ## 🚀 Demonstrações Visuais
 
 **1. Hero Section (Dobra Principal)**
+
 *Foco em Copywriting e Call to Action pulsante.*
 ![Hero Section](https://i.imgur.com/2eu0kbW.png)
 **2. Estatísticas e Prova Social**
+
 *Uso de grid layout para destacar a credibilidade do treinamento.*
 ![Estatísticas e Prova Social](https://i.imgur.com/2g4MWA1.png)
 **3. Tabela de Preços (Dark Mode)**
+
 *Cards interativos destacando o plano principal.*
 ![Planos em Dark Mode](https://i.imgur.com/3aTiSsC.png)
 **4. Dúvidas Frequentes (FAQ)**
+
 *Acordeão desenvolvido em JavaScript puro.*
 ![Seção de FAQ](https://i.imgur.com/ykZRRtA.png)
 **5. Formulário de Aplicação**
+
 *Validação assíncrona customizada via JavaScript.*
 ![Formulário de Aplicação](https://i.imgur.com/TFGbD3K.png)
 **6. Tabela de Preços (Light Mode)**
+
 *Implementação de alternância de temas (Theme Toggle).*
 ![Planos em Light Mode](https://i.imgur.com/rPHo04Q.png)
 
