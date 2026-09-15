@@ -25,6 +25,27 @@ Foi desenvolvido com HTML5, CSS3 e JavaScript puro (Vanilla JS), focando em boas
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white): Para a estilização avançada, utilizando `Flexbox`, `Grid Layout`, variáveis CSS para controle de tema e animações customizadas (`@keyframes`).
 * ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black): Para toda a lógica de interatividade, manipulação do DOM, controle de estado, geração de sons matemáticos e validações.
 
+## 🚀 Demonstrações Visuais
+
+**1. Hero Section (Dobra Principal)**
+*Foco em Copywriting e Call to Action pulsante.*
+![Hero Section](https://i.imgur.com/2eu0kbW.png)
+**2. Estatísticas e Prova Social**
+*Uso de grid layout para destacar a credibilidade do treinamento.*
+![Estatísticas e Prova Social](https://i.imgur.com/2g4MWA1.png)
+**3. Tabela de Preços (Dark Mode)**
+*Cards interativos destacando o plano principal.*
+![Planos em Dark Mode](https://i.imgur.com/3aTiSsC.png)
+**4. Dúvidas Frequentes (FAQ)**
+*Acordeão desenvolvido em JavaScript puro.*
+![Seção de FAQ](https://i.imgur.com/ykZRRtA.png)
+**5. Formulário de Aplicação**
+*Validação assíncrona customizada via JavaScript.*
+![Formulário de Aplicação](https://i.imgur.com/TFGbD3K.png)
+**6. Tabela de Preços (Light Mode)**
+*Implementação de alternância de temas (Theme Toggle).*
+![Planos em Light Mode](https://i.imgur.com/rPHo04Q.png)
+
 ## 🚀 Como Executar
 
 Por ser um projeto puramente front-end, não há necessidade de um servidor ou dependências complexas.
